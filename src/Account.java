@@ -3,7 +3,7 @@ public class Account {
 
     public static void Deposit(){
 
-        System.out.println("$500 has been deposited");
+            System.out.println("$500 has been deposited");
 
     }
 
