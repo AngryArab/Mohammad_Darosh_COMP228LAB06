@@ -1,16 +1,34 @@
-public class Account {
+public class Account extends Thread{
 
 
-    public static void Deposit(){
 
-            System.out.println("$500 has been deposited");
+    private Thread withdraw;
+    private Thread deposit;
+    private String threadName;
+
+
+    Account(String deposit, String withdraw){
+
+
+        threadName = deposit + withdraw;
+
+
+        System.out.println("Creating " + threadName) ;
 
     }
 
-    public static void Withdraw(){
 
 
-        System.out.println("$250 has been withdrawn");
+    public void Deposit(){
+
+           threadName = "$300 has been deposited";
+
+    }
+
+    public void Withdraw(){
+
+
+        threadName = "$4000 has been withdrawn";
 
     }
 

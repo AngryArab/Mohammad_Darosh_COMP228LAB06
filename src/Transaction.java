@@ -1,7 +1,24 @@
-public class Transaction implements Runnable{
+public class Transaction extends Account implements Runnable{
+
+
+    Transaction(String deposit, String withdraw) {
+        super(deposit, withdraw);
+    }
+
     @Override
     public void run() {
-        Account.Deposit();
-        Account.Withdraw();
+
+
+
+
+
+
+
+
+
     }
+
+
+
+
 }
