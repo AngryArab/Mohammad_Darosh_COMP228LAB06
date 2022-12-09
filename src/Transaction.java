@@ -10,8 +10,8 @@ public class Transaction extends Account implements Runnable{
 
 
 
-
-
+        Deposit();
+        Withdraw();
 
 
 

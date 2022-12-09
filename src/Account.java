@@ -2,8 +2,7 @@ public class Account extends Thread{
 
 
 
-    private Thread withdraw;
-    private Thread deposit;
+
     private String threadName;
 
 
